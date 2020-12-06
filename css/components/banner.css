@@ -1,0 +1,33 @@
+.banner {
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(193, 102, 107, 0.6)), url('../../images/background-1.jpeg');
+	background-size: cover;
+	background-position: center center;
+	height: 80vh;
+	min-height: 500px;
+	display: flex;
+}
+
+.banner_inner {
+	margin: auto;
+	color: #FFF;
+	text-shadow: 1.25px 1.25px rgba(255, 255, 255, 0.24);
+	font-size: 30px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner {
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner {
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner {
+    width: 520px;
+  }
